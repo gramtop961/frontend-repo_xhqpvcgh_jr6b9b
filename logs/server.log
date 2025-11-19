@@ -3,9 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 201 ms
+  VITE v5.4.20  ready in 210 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.34.145:3000/
-Files in the public directory are served at the root path.
-Instead of /public/telegram2-frontend.tar.gz, use /telegram2-frontend.tar.gz.
