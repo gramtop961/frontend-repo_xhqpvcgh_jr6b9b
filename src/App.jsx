@@ -3,6 +3,7 @@ import Spline from '@splinetool/react-spline'
 import { ThemeProvider } from './components/DesignSystem'
 import { BottomNav } from './components/Navigation'
 import { Onboarding, Chats, Discover, Creator, Automations, Profile, PostEditor, StoryBuilder, AutomationCanvas, MiniApps, MiniAppContainer, SettingsPages } from './components/Screens'
+import ExportLinks from './ExportLinks'
 
 function App() {
   const [authed, setAuthed] = useState(null)
@@ -30,6 +31,7 @@ function App() {
   return (
     <ThemeProvider>
       <div className="relative min-h-screen">
+        <ExportLinks />
         <div className="absolute inset-0 h-64">
           <Spline scene="https://prod.spline.design/8nsoLg1te84JZcE9/scene.splinecode" style={{ width: '100%', height: '100%' }} />
           <div className="absolute inset-0 bg-gradient-to-b from-[#FAF9F7]/0 via-[#FAF9F7]/60 to-[#FAF9F7] pointer-events-none" />
